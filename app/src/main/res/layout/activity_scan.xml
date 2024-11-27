@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Scan">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+        <include
+            layout="@layout/toolbar"
+            android:id="@+id/toolbar"
+            />
+
+          <ImageView
+              android:layout_width="250dp"
+              android:layout_height="240dp"
+              android:src="@drawable/lab"
+              android:background="@drawable/border"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="20dp"
+              />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Your Kidney Stone Type:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Type"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Click here to know more about it !"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle=""
+            android:textSize="14sp" />
+
+        <ImageView
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:src="@drawable/qrcode"
+              android:background="@drawable/border"
+              android:layout_gravity="center_horizontal"
+              android:padding="10dp"
+              android:layout_marginTop="70dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Click here to scan your Xray !"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle=""
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

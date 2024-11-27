@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "149035809043",
+    "project_id": "kidneycheck-f8fe0",
+    "storage_bucket": "kidneycheck-f8fe0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149035809043:android:f23a8a60896db4ed1002e6",
+        "android_client_info": {
+          "package_name": "com.example.healthcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4fxiobmb-5L8LzBz25AREmWc38lGH0Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149035809043:android:190d73beb487c1771002e6",
+        "android_client_info": {
+          "package_name": "com.example.kidneycheck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4fxiobmb-5L8LzBz25AREmWc38lGH0Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        />
+
+
+    <ImageView
+        android:id="@+id/scanner"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:src="@drawable/qrcode"
+        android:background="@drawable/border"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan your Xray Image"
+        android:textSize="17sp"
+        android:layout_marginTop="7dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="222dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="21dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Diet_Planner"
+            android:layout_width="200dp"
+            android:layout_height="155dp"
+            android:layout_margin="14dp"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/colorPrimary"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardElevation="7dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:src="@drawable/insurance" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="124dp"
+                android:text="Diet Planner"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
